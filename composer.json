@@ -3,6 +3,9 @@
        "phpunit/phpunit": "3.7.*@stable",
        "mockery/mockery": "dev-master"
    },
+   "config": {
+       "bin-dir": "bin/"
+   },
    "minimum-stability": "dev",
    "autoload": {
        "psr-0": {
