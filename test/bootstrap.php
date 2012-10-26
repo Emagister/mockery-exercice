@@ -1,6 +1,6 @@
 <?php
 
-if (!file_exists(__DIR__ . '/../vendors/autoload.php')) {
+if (!file_exists(__DIR__ . '/../vendor/autoload.php')) {
     die('Execute composer before phpuni!!' . PHP_EOL);
 }
 
