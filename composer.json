@@ -1,0 +1,12 @@
+{
+   "require": {
+       "phpunit/phpunit": "3.7.*@stable",
+       "mockery/mockery": "dev-master"
+   },
+   "minimum-stability": "dev",
+   "autoload": {
+       "psr-0": {
+           "": "src/"
+       }
+   }
+}
