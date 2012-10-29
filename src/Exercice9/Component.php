@@ -4,23 +4,28 @@ namespace Exercice9;
 
 class Component
 {
-    public function get($something)
+    public function abuchearMaximamente()
     {
         return $this;
     }
 
-    public function applauseTo($someone)
+    public function paraLuegoNoPoderPararDeAplaudir()
     {
         return $this;
     }
 
-    public function abuchearTo($someone)
+    public function yAcabarConManosRojas()
     {
         return $this;
     }
 
-    public function result()
+    public function yLagrimilla()
     {
-        return 'TEST OK!';
+        return $this;
+    }
+
+    public function paraObtener()
+    {
+        return 'EPOT A ROGIR';
     }
 }

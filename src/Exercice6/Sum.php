@@ -14,8 +14,8 @@ class Sum
         $this->superSum = $superSum;
     }
 
-    public function sum($number)
+    public function checkSuperSum($number)
     {
-        return $this->superSum->sum($number);
+        return ($this->superSum->sum($number) == $number + 1);
     }
 }

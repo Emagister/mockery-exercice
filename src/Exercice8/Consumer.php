@@ -1,5 +1,7 @@
 <?php
 
+namespace Exercice8;
+
 class Consumer
 {
     /**

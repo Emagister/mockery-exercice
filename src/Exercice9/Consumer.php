@@ -9,15 +9,20 @@ class Consumer
      */
     private $component;
 
+    public function __construct(Component $component)
+    {
+        $this->component = $component;
+    }
+
     public function consume()
     {
-        $result = $this->component
-            ->get('algo')
-            ->applauseTo('Alguien')
-            ->abuchearTo('Basuras')
-            ->result()
-        ;
-
-        return strrev($result);
+        return strrev(
+            $this->component
+            ->abuchearMaximamente()
+            ->paraLuegoNoPoderPararDeAplaudir()
+            ->yAcabarConManosRojas()
+            ->yLagrimilla()
+            ->paraObtener()
+        );
     }
 }
