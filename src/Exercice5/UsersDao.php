@@ -9,7 +9,7 @@ class UsersDao
      */
     private $db;
 
-    public function __construct(DBConnection $db)
+    public function __construct($db)
     {
         $this->db = $db;
     }
